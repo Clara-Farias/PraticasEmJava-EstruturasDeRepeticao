@@ -18,7 +18,7 @@ public static void main(String[] args){
     for (int i = 0; i < 3; i++){
         System.out.println();
         for (int j = 0; j < 2 ; j++){
-            if (matriz [i][j] %2== 1){
+            if (matriz [i][j] %2 != 0){
             System.out.println("--> " + matriz[i][j]); }
         }
     }
